@@ -111,15 +111,15 @@ width: 18rem;
     background-size: cover;
 }
 .footer{
-    height: 20vh;
+    min-height: 20vh;
     background-image: url(/images/b14.png);
     background-color: #041e42;
 }
 .input-group{
-    width: 30%;
+    max-width: 500px;
 }
 .a1{
-    width: 50%;
+    max-width: 500px;
 }
 .a2{
     color: #818ea0;
@@ -156,6 +156,10 @@ width: 18rem;
 .c12{
     height: 70%;
 }
+.e{
+    width: 306px;
+
+}
 .card:hover{
     cursor: pointer;
     transform: scale(1.1);
@@ -163,6 +167,10 @@ width: 18rem;
 }
 .haeder3{
     height: 25vh;
+}
+.navbar-light .navbar-toggler {
+    color: transparent;
+    border-color: none;
 }
 @media only screen and ( max-width : 850px) {
     .noneImg{
